@@ -138,43 +138,6 @@ section {
   }
 
 
-.superresolution
-{   
-    border: $bordes;
-    box-shadow: $boxshadow;
-    align-content: center;
-    width: 45%;
-    height: 45%;
-}
-.flex5{
-    display: flex;
-    width: 55%;
-    height: 55%;
-    background-color: rgb(238, 237, 237);;
-}
-
-.flex5 .armor {
-    background-color: #b0b3b7;
-    width: 155px;
-    height: 100px;
-    margin: 10px;
-}
-
-.flex5 .armor1{
-    order:0;
-}
-
-.flex5 .armor2{
-    order:0;
-}
-
-.flex5 .armor3{
-    order:0;
-}
-.flex5 .armor4{
-    order:0;
-}
-
 /* footer */
 
 footer div{
@@ -183,4 +146,14 @@ footer div{
     text-align: center;
     width:100%;
     flex-shrink: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
 }
