@@ -59,6 +59,14 @@ section {
   border: black solid 1px;
   box-shadow: 0px 4px 4px 0px black; }
 
+.elefoto {
+  width: 20%;
+  height: 250px;
+  margin: 15px 15px 15px 35px;
+  background-color: white;
+  border: black solid 1px;
+  box-shadow: 0px 4px 4px 0px black; }
+
 /* Nav */
 .main-nav ul  {
     background:black;
@@ -174,4 +182,5 @@ footer div{
     background-color: #174873;
     text-align: center;
     width:100%;
+    flex-shrink: 0;
 }
